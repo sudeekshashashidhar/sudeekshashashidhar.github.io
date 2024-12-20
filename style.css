@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-image: url('background.jpg');
     background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     margin: 0 15px;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ nav a:hover {
 
 .gallery img {
     width: 200px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
