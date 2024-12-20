@@ -5,17 +5,19 @@ body {
     padding: 0;
     background-image: url('background.jpg');
     background-size: cover;
-    color: black;
+    color: black; /* Change text color to black */
     text-align: center;
 }
 
+/* Navigation Bar */
 nav {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.7); /* Lighten the navbar */
     padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
 nav a {
-    color: black;
+    color: black; /* Navbar links are black */
     margin: 0 15px;
     text-decoration: none;
 }
@@ -34,11 +36,13 @@ nav a:hover {
 
 .gallery img {
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid black; /* Image border is black */
     border-radius: 5px;
 }
 
+/* Footer */
 footer {
     margin-top: 50px;
     font-size: 0.9em;
+    color: black; /* Footer text is black */
 }
