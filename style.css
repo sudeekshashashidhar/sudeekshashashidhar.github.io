@@ -3,109 +3,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg');
-    background-size: cover;
-    color: black; /* Change text color to black */
-    text-align: center;
+    background-color: #f0f8ff; /* Light background color */
+    color: black; /* Ensure all text is black */
 }
 
 /* Navigation Bar */
 nav {
-    background-color: rgba(255, 255, 255, 0.7); /* Lighten the navbar */
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-nav a {
-    color: black; /* Navbar links are black */
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Gallery */
-.gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.gallery img {
-    width: 200px;
-    border: 2px solid black; /* Image border is black */
-    border-radius: 5px;
-}
-
-/* Footer */
-footer {
-    margin-top: 50px;
-    font-size: 0.9em;
-    color: black; /* Footer text is black */
-}
-
-h1, h2, p, a {
-    color: #00ffcc; /* Neon teal */
-    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Glow effect */
-}
-
-nav a {
-    color: #ff007f; /* Neon pink */
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #ffcc00; /* Neon yellow on hover */
-    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
-}
-
-button {
-    background-color: #ff007f;
+    background-color: #333; /* Dark navbar background */
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-    text-shadow: 0 0 5px white;
-}
-
-button:hover {
-    background-color: #ffcc00;
-    color: black;
-    text-shadow: 0 0 10px black;
-}
-
-h2 {
-    color: #333;
-    text-align: center;
-}
-
-ul {
-    list-style-type: square;
-    margin: 20px auto;
-    padding: 0;
-    max-width: 600px;
-}
-
-li {
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-nav {
-    background-color: #f8f9fa;
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
 
 nav a {
-    color: #007bff;
+    color: white; /* Navbar links in white */
     margin: 0 15px;
     text-decoration: none;
 }
@@ -114,16 +26,27 @@ nav a:hover {
     text-decoration: underline;
 }
 
-button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+/* About Me Section */
+.about-me {
+    text-align: center; /* Center-align text */
+    margin: 50px auto; /* Center vertically and horizontally */
+    max-width: 600px; /* Limit the width */
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: black; /* Ensure text in this section is black */
+    padding: 20px; /* Padding inside the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-button:hover {
-    background-color: #218838;
+/* Specific Heading Styles */
+h1, h2, p {
+    color: black; /* Explicitly make headings and paragraphs black */
+}
+
+/* Footer Links or Additional Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
 }
