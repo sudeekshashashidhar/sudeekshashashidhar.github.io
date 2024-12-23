@@ -33,17 +33,20 @@
 <p id="result"></p>
 
 <script>
-    const randomNumber = Math.floor(Math.random() * 10) + 1;
     function checkGuess() {
+        const randomNumber = Math.floor(Math.random() * 10) + 1; // Generate a random number every time
         const userGuess = document.getElementById("guess").value;
         const result = document.getElementById("result");
         if (userGuess == randomNumber) {
-            result.textContent = "You guessed it right! 🎉";
+            result.textContent = "You guessed it right! 🎉 The number was " + randomNumber;
         } else {
-            result.textContent = "Try again! The number was " + randomNumber;
+            result.textContent = "Wrong guess! The number was " + randomNumber;
         }
     }
 </script>
+
+
+
 
 <h2>Countdown to Christmas!</h2>
 <p id="countdown"></p>
