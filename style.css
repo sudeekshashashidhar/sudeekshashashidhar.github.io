@@ -85,3 +85,18 @@ nav a:hover {
     font-size: 16px; /* Readable font size for list items */
     margin-bottom: 10px; /* Add space between list items */
 }
+
+
+/* General Styles for Places Page */
+.places-section {
+    text-align: center; /* Center-align the text and image */
+    margin: 50px auto; /* Add space around the section */
+}
+
+.places-section img {
+    max-width: 80%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ccc; /* Add a border for styling */
+    border-radius: 10px; /* Optional: round the corners */
+    margin-top: 20px; /* Add some space above the image */
+}
