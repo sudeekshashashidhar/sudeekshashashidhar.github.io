@@ -46,3 +46,84 @@ footer {
     font-size: 0.9em;
     color: black; /* Footer text is black */
 }
+
+h1, h2, p, a {
+    color: #00ffcc; /* Neon teal */
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; /* Glow effect */
+}
+
+nav a {
+    color: #ff007f; /* Neon pink */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Neon yellow on hover */
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+}
+
+button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-shadow: 0 0 5px white;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #007bff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
