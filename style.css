@@ -1,44 +1,87 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('background.jpg');
-    background-size: cover;
-    color: white;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Clean and modern font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    color: black; /* Ensure all text is black */
+    background-color: white; /* No background, plain white */
 }
 
+/* Navigation Bar */
 nav {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    display: flex; /* Align links horizontally */
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Add space between the links */
+    padding: 15px; /* Add some padding to the navbar */
+    border-bottom: 1px solid #ddd; /* Add a subtle line under the navbar */
 }
 
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+    font-weight: bold; /* Bold text for navigation links */
+    color: black; /* Black text for navigation links */
+    text-decoration: none; /* Remove underline */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover for emphasis */
 }
 
-/* Gallery */
-.gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+/* About Me Section */
+.about-me {
+    text-align: center; /* Center-align text */
+    margin: 50px auto; /* Add space around the section */
+    max-width: 600px; /* Limit the width of the content */
 }
 
-.gallery img {
-    width: 200px;
-    border: 2px solid white;
-    border-radius: 5px;
+.about-me h1 {
+    font-weight: bold; /* Bold the "About Me" heading */
 }
 
-footer {
-    margin-top: 50px;
-    font-size: 0.9em;
+.about-me p {
+    font-size: 16px; /* Standard readable font size for the paragraph */
+    line-height: 1.5; /* Increase spacing between lines for readability */
+}
+
+/* Blog Section */
+.blog-section {
+    text-align: left; /* Align text to the left for blog posts */
+    margin: 50px auto; /* Add margin around the section */
+    max-width: 800px; /* Limit the width for readability */
+    padding: 20px; /* Add padding inside the section */
+}
+
+.blog-section h1 {
+    font-weight: bold; /* Bold blog heading */
+    font-size: 24px; /* Larger font size for the title */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.blog-section p {
+    font-size: 16px; /* Readable font size for paragraphs */
+    line-height: 1.5; /* Increase spacing between lines */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+/* Places Section */
+.places-section {
+    text-align: left; /* Left-align for better readability */
+    margin: 50px auto; /* Add margin around the section */
+    max-width: 800px; /* Limit the width for readability */
+    padding: 20px; /* Add padding inside the section */
+}
+
+.places-section h1 {
+    font-weight: bold; /* Bold the "Places I've Been" heading */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.places-section ul {
+    list-style-type: square; /* Add a square bullet point style */
+    margin-left: 20px; /* Indent the list */
+}
+
+.places-section li {
+    font-size: 16px; /* Readable font size for list items */
+    margin-bottom: 10px; /* Add space between list items */
 }
