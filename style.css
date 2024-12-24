@@ -26,11 +26,22 @@ nav a:hover {
     text-decoration: underline; /* Underline on hover for emphasis */
 }
 
+/* Main Content Layout */
+.main-content {
+    display: flex; /* Use Flexbox for side-by-side layout */
+    justify-content: center; /* Center the entire layout */
+    align-items: flex-start; /* Align sections at the top */
+    gap: 40px; /* Space between the sections */
+    padding: 20px; /* Add padding around the content */
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 50px auto; /* Center the layout horizontally */
+}
+
 /* About Me Section */
 .about-me {
-    text-align: center; /* Center-align text */
-    margin: 50px auto; /* Add space around the section */
+    flex: 1; /* Takes up equal space as the contact form */
     max-width: 600px; /* Limit the width of the content */
+    text-align: center; /* Center-align the text */
 }
 
 .about-me h1 {
@@ -40,6 +51,48 @@ nav a:hover {
 .about-me p {
     font-size: 16px; /* Standard readable font size for the paragraph */
     line-height: 1.5; /* Increase spacing between lines for readability */
+}
+
+/* Contact Form Section */
+.contact-form {
+    flex: 1; /* Takes up equal space as the about me section */
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+}
+
+.contact-form h2 {
+    font-weight: bold; /* Bold the "Contact Me" heading */
+    margin-bottom: 15px; /* Add space below the heading */
+}
+
+.contact-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Add spacing below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width for input fields */
+    margin-bottom: 15px; /* Add spacing between inputs */
+    padding: 10px; /* Add padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-form button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.contact-form button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
 }
 
 /* Blog Section */
@@ -64,8 +117,8 @@ nav a:hover {
 
 /* Places Section */
 .places-section {
-    text-align: left; /* Left-align for better readability */
-    margin: 50px auto; /* Add margin around the section */
+    text-align: center; /* Center-align the text and image */
+    margin: 50px auto; /* Add space around the section */
     max-width: 800px; /* Limit the width for readability */
     padding: 20px; /* Add padding inside the section */
 }
@@ -84,13 +137,6 @@ nav a:hover {
 .places-section li {
     font-size: 16px; /* Readable font size for list items */
     margin-bottom: 10px; /* Add space between list items */
-}
-
-
-/* General Styles for Places Page */
-.places-section {
-    text-align: center; /* Center-align the text and image */
-    margin: 50px auto; /* Add space around the section */
 }
 
 .places-section img {
