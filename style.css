@@ -18,12 +18,12 @@ html {
 }
 
 @font-face {
-    font-family: "Steph";
-    src: url("fonts/steph-font.ttf");
+    font-family: "Atma";
+    src: url("fonts/sudeeksha-font.ttf");
 }
 
 body {
-    font-family: 'Steph', sans-serif;
+    font-family: 'Atma', sans-serif;
 }
 
 a {
