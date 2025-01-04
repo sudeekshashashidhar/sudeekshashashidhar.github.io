@@ -124,11 +124,11 @@ section h2::after {
     font-weight: 700;
 }
 
-#about-section .headshot {
+#about-section .profile {
     margin-bottom: 2rem;
 }
 
-#about-section .headshot img {
+#about-section .profile img {
     width: 20rem;
     margin-top: 1rem;
     border-radius: 50%;
