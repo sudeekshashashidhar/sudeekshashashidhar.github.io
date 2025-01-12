@@ -408,6 +408,63 @@ footer {
     font-size: 0.875rem;
 }
 
+/* Chatbot Container */
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Chatbot Toggle Button */
+#chatbot-toggle {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Chatbot Box */
+#chatbot-box {
+    width: 300px;
+    height: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Chatbot Messages */
+#chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Chatbot Input and Button */
+#chatbot-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+#chatbot-send {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 992px) {
     nav .left a {
